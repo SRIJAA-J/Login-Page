@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('back1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    position: relative;
+    width: 400px;
+    height: 555px;
+    background:rgba(255,255,255,.1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px;
+
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.container .text{
+    position: relative;
+    top: 7%;
+}
+.inp1{
+    border: none;
+    background-color:rgba(255,255,255,.1);
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40px;
+    outline: none;
+    border-bottom: 3px solid white;
+    color: black;
+}
+.inp2{
+    border: none;
+    background-color:rgba(255,255,255,.1);
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40px;
+    outline: none;
+    border-bottom: 3px solid white;
+    color: black;
+}
+form{
+    text-align: center;
+}
+
+.inp1 :placeholder-shown{
+    color: black;
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color: grey;
+    color: black;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+button:hover{
+    border: 3px solid white;
+    color: white;
+    font-size: 20px;
+    background-color:rgba(255,255,255,.1);
+}
+p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+p span{
+    color: white;
+    cursor: pointer;
+}
